@@ -12,5 +12,5 @@ class Post(models.Model):                           # inheritance
     def __str__(self):  # peramter is self always in python and must return a string
         return self.title
     
-    def get_absolute_url(self):
+    def get_absolute_url(self): #catch all the urls
         return reverse("detail", args=[self.id])

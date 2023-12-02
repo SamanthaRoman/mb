@@ -20,5 +20,5 @@ from django.urls import include, path   # Step1 to adding a url. add include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('posts/', include('posts.urls')),  # step2 make the path that will now be controlled by the posts.urls.py file.
-    
+    path('', include('pages.urls')),
 ]

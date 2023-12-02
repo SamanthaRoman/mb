@@ -1,4 +1,4 @@
-from django.views.generic import ListView, CreateView, DetailView       # list view represents a scan and returns multiple records from a database tabel
+from django.views.generic import ListView, CreateView, DetailView     # list view represents a scan and returns multiple records from a database tabel
 from .models import Post
 
 # vanilla use of list view of all the records in a python list called (the name of your model plus _list)
